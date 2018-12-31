@@ -1,0 +1,74 @@
+body{
+	
+	background: #333;
+	color: #fff;
+	text-transform: capitalize;
+
+
+
+}
+h2{
+	text-align: center;
+	text-decoration: underline;
+
+}
+.col{
+	float: left;
+	width: 33%;
+	box-sizing: border-box;
+}
+
+.price-box{
+	background: #fff;
+	color: #555;
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	border: 2px solid #555;
+	transition: 0.3s;
+}
+
+.price-box:hover, .popular{
+	box-shadow: 0 10px 15px 0 #000;
+}
+
+.price-box li{
+	padding: 20px;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+
+.price-box .header{
+	background: #111;
+	color: #fff;
+	font-size: 25px;
+}
+
+.price-box .header-orange{
+	background-color: tomato;
+}
+
+.price-box .emph{
+	background-color: #f4f4f4;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.price-box .button{
+	background-color: tomato;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	padding: 10px 15px; 
+
+}
+
+/*Responsivness */
+
+@media (max-width: 700px){
+	.col{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
